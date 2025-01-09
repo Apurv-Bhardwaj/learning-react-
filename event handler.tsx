@@ -10,7 +10,7 @@ function ListGroup() {
     <>
       <h1> This is a List of cities </h1>
       {items.length === 0 && <p>No items found</p>}
-      <ul className="dfdflist-group">
+      <ul className="list-group">
         {items.map((item, index) => (
           <li className="List-group-item" key={item} onClick={handleClick}>
             {item}
